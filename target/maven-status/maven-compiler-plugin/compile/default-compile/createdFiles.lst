@@ -1,0 +1,14 @@
+com\muhammaddaffa\nextfarming\NextFarming.class
+com\muhammaddaffa\nextfarming\enchantments\types\Efficiency.class
+com\muhammaddaffa\nextfarming\enchantments\types\Bomb.class
+com\muhammaddaffa\nextfarming\enchantments\types\TokenGreed.class
+com\muhammaddaffa\nextfarming\user\User.class
+com\muhammaddaffa\nextfarming\enchantments\CustomEnchantment.class
+com\muhammaddaffa\nextfarming\regeneration\types\SlowRegen.class
+com\muhammaddaffa\nextfarming\enchantments\types\Fortune.class
+com\muhammaddaffa\nextfarming\utils\Utils.class
+com\muhammaddaffa\nextfarming\enchantments\types\Command.class
+com\muhammaddaffa\nextfarming\enchantments\types\ExpGreed.class
+com\muhammaddaffa\nextfarming\user\User$Settings.class
+com\muhammaddaffa\nextfarming\enchantments\types\Earthquake.class
+com\muhammaddaffa\nextfarming\regeneration\BlockRegen.class

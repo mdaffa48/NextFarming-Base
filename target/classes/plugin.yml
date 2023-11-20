@@ -1,0 +1,7 @@
+name: NextFarming
+version: '1.0'
+main: com.muhammaddaffa.nextfarming.NextFarming
+api-version: '1.13'
+depend: [Vault]
+authors: [aglerr]
+website: https://muhammaddaffa.com

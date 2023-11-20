@@ -1,0 +1,41 @@
+# This configuration will be used for the leveling system that we have
+# Player can level up to infinite number of levels
+
+# How many xp will be added on each level?
+xp-required: 200
+
+# You can also define the global rewards if player level up
+# This reward is chosen if there is no reward level listed below
+default-reward:
+  titles:
+    title: "&a&lLevel Up"
+    sub-title: "&fYou have leveled up and receive rewards!"
+  commands:
+    - "eco give {player} 500"
+
+# Here you can reward players from reaching a specific level
+rewards:
+  5: # What level should we give this reward?
+    titles:
+      title: "&a&lLevel Up"
+      sub-title: "&fYou have leveled up and receive rewards!"
+    commands:
+      - "eco give {player} 5000"
+  10:
+    titles:
+      title: "&a&lLevel Up"
+      sub-title: "&fYou have leveled up and receive rewards!"
+    commands:
+      - "eco give {player} 10000"
+  15:
+    titles:
+      title: "&a&lLevel Up"
+      sub-title: "&fYou have leveled up and receive rewards!"
+    commands:
+      - "eco give {player} 15000"
+  20:
+    titles:
+      title: "&a&lLevel Up"
+      sub-title: "&fYou have leveled up and receive rewards!"
+    commands:
+      - "eco give {player} 20000"

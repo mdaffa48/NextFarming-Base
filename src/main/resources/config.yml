@@ -1,0 +1,48 @@
+# This config option is to determine what blocks that can be broken
+# by the farming hoe and the level needed to break those blocks,
+# these options are default values
+farming-levels:
+  WHEAT:
+    # Level required to break this crop
+    level-required: 0
+    # How long until the wheat is regenerated
+    regeneration-time: 10
+    # The item that the player will receive
+    item:
+      material: WHEAT
+      display-name: "#D8A073Farmer Wheat &7(#80ec00$0.001&7)"
+      lore: [ ]
+  CARROTS:
+    level-required: 5
+    regeneration-time: 20
+    item:
+      material: CARROT
+      display-name: "#FB913BCarrot &7(#80ec00$0.002&7)"
+      lore: [ ]
+
+# The farming worlds
+farming-worlds:
+  - "spawn"
+  - "Spawn"
+
+messages:
+  no-permission: "&cYou don't have permission"
+  reload: "&aYou have reloaded the configuration!"
+  last-tier: "&cYour hoe/pickaxe is already on max tier!"
+  hoe-upgrade: "&aHoe Upgrade &7({from} &f-> {to}&7)"
+  pickaxe-upgrade: "&aPickaxe Upgrade &7({from} &f-> {to}&7)"
+  not-enough-money: "&cYou don't have enough money! (${money}/${upgradecost})"
+  break-fail: "&cYou can only break Farms with a Farming Hoe."
+  target-not-found: "&cThat player is not online!"
+  not-int: "&cThe argument is not a number!"
+  no-tier: "&cThere is no hoe/pickaxe with that tier!"
+  give-hoe: "&aYou give &e{amount}x &atier &e{tier} &ahoe(s) to &e{player}"
+  receive-hoe: "&aYou receive &e{amount}x &atier &e{tier} &ahoe(s)!"
+  give-pickaxe: "&aYou give &e{amount}x &atier &e{tier} &apickaxe(s) to &e{player}"
+  receive-pickaxe: "&aYou receive &e{amount}x &atier &e{tier} &apickaxe(s)!"
+  farm-bomb-active: "&aFarm Bomb has been activated!"
+  level-not-enough: "&cYou need level &n{level}&c to break this crop!"
+  add-xp: "&aYou have added &e{amount} xp &ato &e{player}!"
+  receive-xp: "&aYou have received &e{amount} xp&a!"
+  remove-xp: "&cYou have taken &e{amount} xp &cfrom &e{player}&c!"
+  removed-xp: "&cYour xp has been reduced by &e{amount}&c!"

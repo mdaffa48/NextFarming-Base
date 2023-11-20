@@ -1,0 +1,18 @@
+# The attributes for specific levels
+1-4:
+  exp-attribute: 1.0
+  speed-attribute: 1.0
+  token-attribute: 1.0
+  money-attribute: 1.0
+
+5-10:
+  exp-attribute: 1.0
+  speed-attribute: 1.115
+  token-attribute: 1.0
+  money-attribute: 1.0
+
+11-all:
+  exp-attribute: 2.0
+  speed-attribute: 1.115
+  token-attribute: 2.0
+  money-attribute: 2.0

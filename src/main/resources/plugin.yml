@@ -1,0 +1,8 @@
+name: NextFarming
+version: '${project.version}'
+main: com.muhammaddaffa.nextfarming.NextFarming
+api-version: 1.19
+authors: [aglerr]
+website: https://muhammaddaffa.com/
+depend: [Vault]
+softdepend: [MyWorlds, Multiverse-Core]

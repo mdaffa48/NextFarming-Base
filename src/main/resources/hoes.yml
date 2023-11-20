@@ -1,0 +1,466 @@
+gui:
+  title: "&8Hoe Upgrade"
+  size: 27
+  fill_item:
+    enabled: true
+    material: BLACK_STAINED_GLASS_PANE
+    display-name: "&f"
+  hoes_slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+  next_page:
+    material: ARROW
+    custom-model-data: 0
+    slot: 51
+    display-name: "&aNext -->"
+    lore:
+      - "&7Go to the next page"
+  previous_page:
+    material: ARROW
+    custom-model-data: 0
+    slot: 47
+    display-name: "&c<-- Previous"
+    lore:
+      - "&7Go to the previous page"
+
+farming_hoes:
+  1:
+    effects: [ ]
+    abilities:
+      quick-regrowth: false
+      farm-bomb:
+        enabled: false
+        time: 20
+        range: 3
+      fortune: 0
+    hoe-xp:
+      WHEAT: 0.5
+      CARROTS: 0.75
+    upgrade-cost: 250
+    item:
+      material: WOODEN_HOE
+      display-name: "#D8A073&lRusty Hoe &7[Tier I]"
+      enchantments:
+        - "DURABILITY;1"
+      flags:
+        - "HIDE_ATTRIBUTES"
+        - "HIDE_ENCHANTS"
+      lore:
+        - "#a39cacUse this hoe to harvest wheat and"
+        - "#a39caccarrots at the spawn to level up"
+        - "#a39cacyour progress to unlock more access and rewards!"
+        - "&7"
+        - "#D8A073&lEffects:"
+        - "#a39cac- &7None"
+        - "&7"
+        - "#D8A073&lAbilities:"
+        - "#a39cac- &7None"
+        - "&7"
+        - "#D8A073&lUpgrades:"
+        - "#a39cacNext Tier: #D8A073&lRusty Hoe &7[Tier II]"
+        - "#a39cacCost: #70e510250 Gems"
+        - "&7"
+        - "#a39cac&oShift + Right Click to open upgrade menu!"
+  2:
+    effects:
+      - "SPEED;1"
+    abilities:
+      quick-regrowth: false
+      farm-bomb:
+        enabled: true
+        time: 120
+        range: 3
+      fortune: 0
+    hoe-xp:
+      WHEAT: 0.55
+      CARROTS: 0.80
+    upgrade-cost: 500 # Upgrade cost to next tier
+    item:
+      material: WOODEN_HOE
+      display-name: "#D8A073&lRusty Hoe &7[Tier II]"
+      enchantments:
+        - "DURABILITY;1"
+      flags:
+        - "HIDE_ATTRIBUTES"
+        - "HIDE_ENCHANTS"
+      lore:
+        - "#a39cacUse this hoe to harvest wheat and"
+        - "#a39caccarrots at the spawn to level up"
+        - "#a39cacyour progress to unlock more access and rewards!"
+        - "&7"
+        - "#D8A073&lEffects:"
+        - "#a39cac- &b&lSpeed I"
+        - "&7"
+        - "#D8A073&lAbilities:"
+        - "#a39cac- &c&lFarm Bomb &7[120 seconds, 3x3 radius]"
+        - "&7"
+        - "#D8A073&lUpgrades:"
+        - "#a39cacNext Tier: #D8A073&lRusty Hoe &7[Tier III]"
+        - "#a39cacCost: #70e510500 Gems"
+        - "&7"
+        - "#a39cac&oShift + Right Click to open upgrade menu!"
+  3:
+    effects:
+      - "SPEED;1"
+    abilities:
+      quick-regrowth: false
+      farm-bomb:
+        enabled: true
+        time: 120
+        range: 4
+      fortune: 0
+    hoe-xp:
+      WHEAT: 0.60
+      CARROTS: 0.85
+    upgrade-cost: 2000 # Upgrade cost to next tier
+    item:
+      material: WOODEN_HOE
+      display-name: "#D8A073&lRusty Hoe &7[Tier III]"
+      enchantments:
+        - "DURABILITY;1"
+      flags:
+        - "HIDE_ATTRIBUTES"
+        - "HIDE_ENCHANTS"
+      lore:
+        - "#a39cacUse this hoe to harvest wheat and"
+        - "#a39caccarrots at the spawn to level up"
+        - "#a39cacyour progress to unlock more access and rewards!"
+        - "&7"
+        - "#D8A073&lEffects:"
+        - "#a39cac- &b&lSpeed I"
+        - "&7"
+        - "#D8A073&lAbilities:"
+        - "#a39cac- &c&lFarm Bomb &7[120 seconds, 4x4 radius]"
+        - "&7"
+        - "#D8A073&lUpgrades:"
+        - "#a39cacNext Tier: #FFDFE2&lStony Hoe &7[Tier I]"
+        - "#a39cacCost: #70e5102,000 Gems"
+        - "&7"
+        - "#a39cac&oShift + Right Click to open upgrade menu!"
+  4:
+    effects:
+      - "SPEED;2"
+      - "JUMP;1"
+    abilities:
+      quick-regrowth: false
+      farm-bomb:
+        enabled: true
+        time: 90
+        range: 3
+      fortune: 1
+    hoe-xp:
+      WHEAT: 0.62
+      CARROTS: 0.87
+    upgrade-cost: 2500 # Upgrade cost to next tier
+    item:
+      material: STONE_HOE
+      display-name: "#FFDFE2&lStony Hoe &7[Tier I]"
+      enchantments:
+        - "DURABILITY;1"
+      flags:
+        - "HIDE_ATTRIBUTES"
+        - "HIDE_ENCHANTS"
+      lore:
+        - "#a39cacUse this hoe to harvest wheat and"
+        - "#a39caccarrots at the spawn to level up"
+        - "#a39cacyour progress to unlock more access and rewards!"
+        - "&7"
+        - "#FFDFE2&lEffects:"
+        - "#a39cac- &b&lSpeed II"
+        - "#a39cac- &9&lJump Boost I"
+        - "&7"
+        - "#FFDFE2&lAbilities:"
+        - "#a39cac- &c&lFarm Bomb &7[90 seconds, 3x3 radius]"
+        - "#a39cac- &5&lFortune I"
+        - "&7"
+        - "#FFDFE2&lUpgrades:"
+        - "#a39cacNext Tier: #FFDFE2&lStony Hoe &7[Tier II]"
+        - "#a39cacCost: #70e5102,500 Gems"
+        - "&7"
+        - "#a39cac&oShift + Right Click to open upgrade menu!"
+  5:
+    effects:
+      - "SPEED;2"
+      - "JUMP;1"
+    abilities:
+      quick-regrowth: false
+      farm-bomb:
+        enabled: true
+        time: 90
+        range: 4
+      fortune: 1
+    hoe-xp:
+      WHEAT: 0.63
+      CARROTS: 0.88
+    upgrade-cost: 5000 # Upgrade cost to next tier
+    item:
+      material: STONE_HOE
+      display-name: "#FFDFE2&lStony Hoe &7[Tier II]"
+      enchantments:
+        - "DURABILITY;1"
+      flags:
+        - "HIDE_ATTRIBUTES"
+        - "HIDE_ENCHANTS"
+      lore:
+        - "#a39cacUse this hoe to harvest wheat and"
+        - "#a39caccarrots at the spawn to level up"
+        - "#a39cacyour progress to unlock more access and rewards!"
+        - "&7"
+        - "#FFDFE2&lEffects:"
+        - "#a39cac- &b&lSpeed II"
+        - "#a39cac- &9&lJump Boost I"
+        - "&7"
+        - "#FFDFE2&lAbilities:"
+        - "#a39cac- &c&lFarm Bomb &7[90 seconds, 4x4 radius]"
+        - "#a39cac- &5&lFortune I"
+        - "&7"
+        - "#FFDFE2&lUpgrades:"
+        - "#a39cacNext Tier: #FFDFE2&lStony Hoe &7[Tier III]"
+        - "#a39cacCost: #70e5105,000 Gems"
+        - "&7"
+        - "#a39cac&oShift + Right Click to open upgrade menu!"
+  6:
+    effects:
+      - "SPEED;3"
+      - "JUMP;1"
+    abilities:
+      quick-regrowth: false
+      farm-bomb:
+        enabled: true
+        time: 90
+        range: 7
+      fortune: 2
+    hoe-xp:
+      WHEAT: 0.63
+      CARROTS: 0.88
+    upgrade-cost: 20000 # Upgrade cost to next tier
+    item:
+      material: STONE_HOE
+      display-name: "#FFDFE2&lStony Hoe &7[Tier III]"
+      enchantments:
+        - "DURABILITY;1"
+      flags:
+        - "HIDE_ATTRIBUTES"
+        - "HIDE_ENCHANTS"
+      lore:
+        - "#a39cacUse this hoe to harvest wheat and"
+        - "#a39caccarrots at the spawn to level up"
+        - "#a39cacyour progress to unlock more access and rewards!"
+        - "&7"
+        - "#FFDFE2&lEffects:"
+        - "#a39cac- &b&lSpeed III"
+        - "#a39cac- &9&lJump Boost I"
+        - "&7"
+        - "#FFDFE2&lAbilities:"
+        - "#a39cac- &c&lFarm Bomb &7[90 seconds, 7x7 radius]"
+        - "#a39cac- &5&lFortune II"
+        - "&7"
+        - "#FFDFE2&lUpgrades:"
+        - "#a39cacNext Tier: #ffb500&lSkuy Hoe &7[Tier I]"
+        - "#a39cacCost: #70e51020,000 Gems"
+        - "&7"
+        - "#a39cac&oShift + Right Click to open upgrade menu!"
+  7:
+    effects:
+      - "SPEED;3"
+      - "JUMP;2"
+    abilities:
+      quick-regrowth: true
+      farm-bomb:
+        enabled: true
+        time: 30
+        range: 5
+      fortune: 2
+    hoe-xp:
+      WHEAT: 0.70
+      CARROTS: 0.90
+    upgrade-cost: 25000 # Upgrade cost to next tier
+    item:
+      material: IRON_HOE
+      display-name: "#ffb500&lSkuy Hoe &7[Tier I]"
+      enchantments:
+        - "DURABILITY;1"
+      flags:
+        - "HIDE_ATTRIBUTES"
+        - "HIDE_ENCHANTS"
+      lore:
+        - "#a39cacUse this hoe to harvest wheat and"
+        - "#a39caccarrots at the spawn to level up"
+        - "#a39cacyour progress to unlock more access and rewards!"
+        - "&7"
+        - "#ffb500&lEffects:"
+        - "#a39cac- &b&lSpeed III"
+        - "#a39cac- &9&lJump Boost II"
+        - "&7"
+        - "#ffb500&lAbilities:"
+        - "#a39cac- &b&lQuick Regrowth"
+        - "#a39cac- &c&lFarm Bomb &7[30 seconds, 5x5 radius]"
+        - "#a39cac- &5&lFortune II"
+        - "&7"
+        - "#ffb500&lUpgrades:"
+        - "#a39cacNext Tier: #ffb500&lSkuy Hoe &7[Tier II]"
+        - "#a39cacCost: #70e51025,000 Gems"
+        - "&7"
+        - "#a39cac&oShift + Right Click to open upgrade menu!"
+  8:
+    effects:
+      - "SPEED;4"
+      - "JUMP;2"
+    abilities:
+      quick-regrowth: true
+      farm-bomb:
+        enabled: true
+        time: 30
+        range: 7
+      fortune: 3
+    hoe-xp:
+      WHEAT: 0.74
+      CARROTS: 0.93
+    upgrade-cost: 35000 # Upgrade cost to next tier
+    item:
+      material: IRON_HOE
+      display-name: "#ffb500&lSkuy Hoe &7[Tier II]"
+      enchantments:
+        - "DURABILITY;1"
+      flags:
+        - "HIDE_ATTRIBUTES"
+        - "HIDE_ENCHANTS"
+      lore:
+        - "#a39cacUse this hoe to harvest wheat and"
+        - "#a39caccarrots at the spawn to level up"
+        - "#a39cacyour progress to unlock more access and rewards!"
+        - "&7"
+        - "#ffb500&lEffects:"
+        - "#a39cac- &b&lSpeed IV"
+        - "#a39cac- &9&lJump Boost II"
+        - "&7"
+        - "#ffb500&lAbilities:"
+        - "#a39cac- &b&lQuick Regrowth"
+        - "#a39cac- &c&lFarm Bomb &7[30 seconds, 7x7 radius]"
+        - "#a39cac- &5&lFortune III"
+        - "&7"
+        - "#ffb500&lUpgrades:"
+        - "#a39cacNext Tier: #ffb500&lSkuy Hoe &7[Tier III]"
+        - "#a39cacCost: #70e51035,000 Gems"
+        - "&7"
+        - "#a39cac&oShift + Right Click to open upgrade menu!"
+  9:
+    effects:
+      - "SPEED;5"
+      - "JUMP;3"
+    abilities:
+      quick-regrowth: true
+      farm-bomb:
+        enabled: true
+        time: 30
+        range: 9
+      fortune: 3
+    hoe-xp:
+      WHEAT: 0.78
+      CARROTS: 0.96
+    upgrade-cost: 50000 # Upgrade cost to next tier
+    item:
+      material: DIAMOND_HOE
+      display-name: "#ffb500&lSkuy Hoe &7[Tier III]"
+      enchantments:
+        - "DURABILITY;1"
+      flags:
+        - "HIDE_ATTRIBUTES"
+        - "HIDE_ENCHANTS"
+      lore:
+        - "#a39cacUse this hoe to harvest wheat and"
+        - "#a39caccarrots at the spawn to level up"
+        - "#a39cacyour progress to unlock more access and rewards!"
+        - "&7"
+        - "#ffb500&lEffects:"
+        - "#a39cac- &b&lSpeed V"
+        - "#a39cac- &9&lJump Boost III"
+        - "&7"
+        - "#ffb500&lAbilities:"
+        - "#a39cac- &b&lQuick Regrowth"
+        - "#a39cac- &c&lFarm Bomb &7[30 seconds, 9x9 radius]"
+        - "#a39cac- &5&lFortune III"
+        - "&7"
+        - "#ffb500&lUpgrades:"
+        - "#a39cacNext Tier: #ffb500&lSkuy Hoe &7[Tier IV]"
+        - "#a39cacCost: #70e51050,000 Gems"
+        - "&7"
+        - "#a39cac&oShift + Right Click to open upgrade menu!"
+  10:
+    effects:
+      - "SPEED;6"
+      - "JUMP;4"
+    abilities:
+      quick-regrowth: true
+      farm-bomb:
+        enabled: true
+        time: 20
+        range: 10
+      fortune: 4
+    hoe-xp:
+      WHEAT: 0.85
+      CARROTS: 1.05
+    upgrade-cost: 100000 # Upgrade cost to next tier
+    item:
+      material: DIAMOND_HOE
+      display-name: "#ffb500&lSkuy Hoe &7[Tier IV]"
+      enchantments:
+        - "DURABILITY;1"
+      flags:
+        - "HIDE_ATTRIBUTES"
+        - "HIDE_ENCHANTS"
+      lore:
+        - "#a39cacUse this hoe to harvest wheat and"
+        - "#a39caccarrots at the spawn to level up"
+        - "#a39cacyour progress to unlock more access and rewards!"
+        - "&7"
+        - "#ffb500&lEffects:"
+        - "#a39cac- &b&lSpeed VI"
+        - "#a39cac- &9&lJump Boost IV"
+        - "&7"
+        - "#ffb500&lAbilities:"
+        - "#a39cac- &b&lQuick Regrowth"
+        - "#a39cac- &c&lFarm Bomb &7[20 seconds, 10x10 radius]"
+        - "#a39cac- &5&lFortune IV"
+        - "&7"
+        - "#ffb500&lUpgrades:"
+        - "#a39cacNext Tier: #ffb500&lSkuy Hoe &7[&cMax&7]"
+        - "#a39cacCost: #70e510100,000 Gems"
+        - "&7"
+        - "#a39cac&oShift + Right Click to open upgrade menu!"
+  11:
+    effects:
+      - "SPEED;8"
+      - "JUMP;5"
+    abilities:
+      quick-regrowth: true
+      farm-bomb:
+        enabled: true
+        time: 15
+        range: 20
+      fortune: 5
+    hoe-xp:
+      WHEAT: 1.25
+      CARROTS: 1.95
+    upgrade-cost: 0 # Upgrade cost to next tier
+    item:
+      material: NETHERITE_HOE
+      display-name: "#ffb500&lSkuy Hoe &7[&cMax&7]"
+      enchantments:
+        - "DURABILITY;1"
+      flags:
+        - "HIDE_ATTRIBUTES"
+        - "HIDE_ENCHANTS"
+      lore:
+        - "#a39cacUse this hoe to harvest wheat and"
+        - "#a39caccarrots at the spawn to level up"
+        - "#a39cacyour progress to unlock more access and rewards!"
+        - "&7"
+        - "#ffb500&lEffects:"
+        - "#a39cac- &b&lSpeed VIII"
+        - "#a39cac- &9&lJump Boost V"
+        - "&7"
+        - "#ffb500&lAbilities:"
+        - "#a39cac- &b&lQuick Regrowth"
+        - "#a39cac- &c&lFarm Bomb &7[15 seconds, 20x20 radius]"
+        - "#a39cac- &5&lFortune V"
+        - "&7"
+        - "#a39cac&oShift + Right Click to open upgrade menu!"

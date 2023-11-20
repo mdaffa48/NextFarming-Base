@@ -1,0 +1,10 @@
+
+# The levelling system configuration option
+levelling-system:
+  # What is the required xp for level 1
+  starting-xp: 1000
+  # If the formula is 1.3, the required xp will increase 30% each level.
+  progress-formula: 1.3
+
+# Should the crops regenerated instantly?
+instant-regeneration: false
